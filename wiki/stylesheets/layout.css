@@ -1,0 +1,36 @@
+a {
+  color: inherit;
+
+
+}
+.menubar{
+  position: fixed;
+  top:0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  background: white;
+  background-color: white;
+
+  font-size: 15px;
+  font-family: 'PT Sans Caption',
+ sans-serif;
+  flex-direction: row;
+  box-shadow: 0px 5px 20px -10px rgba(34, 60, 80, 0, 2);
+  border-bottom: 2px solid #aaa;
+}
+.menubar img{
+  width: 50%;
+  height: 50%;
+}
+.logo {
+padding-left: 70px;
+}
+
+.d1 {
+  color: #15BB5C;
+
+text-decoration: none;
+}
