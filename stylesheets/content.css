@@ -1,0 +1,179 @@
+body {–webkit–font-family–smoothing: antialiased; –moz–osx–font–smoothing: grayscale;
+font–family: 'PT Sans', sans-serif;}
+a {
+  color: inherit;
+}
+h1, h2, h3, h4, p, li, blockquote, div, img, {
+  width: 800px;
+  margin: 0 auto;
+}
+h1, h2, h3, h4 {
+font-family: 'PT Sans Caption',
+ sans-serif;
+ font-weight: bold;
+}
+
+h1 {
+margin-top: 67px; font-size: 60px;
+}
+h1 + p {
+margin-top: 8px;
+font-family: 'PT Sans Caption',
+sans-serif;
+font-size: 22px;
+line-height: 32px; color: rgba(0,0,0,.4);
+}
+h1 + p + p {
+  margin-top: 30px;
+}
+h2 {
+  margin-top: 43px;
+  font-size: 32px;
+  line-height: 36px;
+  color: rgba(0,0,0,.8);
+}
+h2+p,
+h2 + blockquote {
+  margin-top: 7px;
+}
+h3 {
+  margin-top: 36px;
+  font-size: 28px;
+  line-height: 34px;
+  color: rgba(0,0,0,.8);
+}
+h3+p,
+h3+blockquote {
+  margin-top: 6px;
+}
+h4 {
+  margin-top: 36px;
+  font-size: 24px;
+  line-height: 34px;
+  color: rgba(0,0,0,.8);
+}
+h4+p,
+h4+blockquote {
+  margin-top: 6px;
+}
+p, blockquote, li {
+  margin-top: 36px;
+  font-size: 28px;
+  line-height: 34px;
+}
+blockquote {
+font-style: italic;
+}
+img {
+  width: 600px;
+  margin: 10px auto 0;
+  padding: 0;
+}
+img +h2 {
+  margin-top: 79px;
+}
+img + p,
+img + blockquote,
+img + li {
+margin-top: 77px;
+}
+h2 + img {
+  margin-top: 81px;
+}
+h3 + img { margin-top: 81px;
+}
+.div1{
+  width: 800px;
+  padding-left: 30%;
+  font-size: 15px;
+  font-family: 'PT Sans Caption',
+ sans-serif;
+}
+p { margin-top: 10px; font-size: 22px; font-family: 'PT Sans Caption',
+sans-serif;
+}
+
+ li { font-size: 22px; font-family: 'PT Sans Caption',
+sans-serif;}
+ ul { line-height: 14px; margin-top: 4px; font-size: 22px; font-family: 'PT Sans Caption',
+sans-serif;}
+
+
+section{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 60px;
+} /*
+section div {
+  width: 40%;
+ padding-bottom: 20px;
+} */
+.s1 {
+  width: 40%;
+ padding-bottom: 20px;
+}
+.sectionmain {
+  width: 1300px; margin: 0 auto;
+}
+section h1{
+  margin-top: 8px;
+  font-family: 'PT Sans Caption',
+  sans-serif;
+  font-size: 30px;
+  color: #33333;
+}
+section p{
+     margin-top: 8px;
+     font-family: 'PT Sans Caption',
+     sans-serif;
+     font-size: 18px;
+     line-height: 32px;
+     color: rgba(0,0,0,4);
+}
+section hr{
+  width: 1440;
+}
+
+.space {
+    top: 0px;
+    margin-bottom: 50px;
+  }
+  .button {
+      background-color: #FFFFFF;
+      border-radius: 5px;
+      color: black;
+      padding: 5px ;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition: 0.2s;
+
+      }
+      .s2 {
+        display: flex;
+        justify-content: center;
+      
+       padding-bottom: 20px;
+      }
+      .s3 {
+        display: flex;
+        justify-content: center;
+      }
+      .button2 {
+            background-color: #000000;
+            color: white;
+            padding: 5px ;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            border-radius: 5px;
+            }
+.divbutton {
+  justify-content: center;
+  align-items: center;
+}
